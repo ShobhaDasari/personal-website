@@ -1,5 +1,3 @@
-
-/* styles.css */
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -7,33 +5,38 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: white;
 }
 .navbar, .footer {
+    font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding: 20px;
 }
 .nav-btn, .social-btn {
+    font-family: 'Raleway', sans-serif;
     padding: 10px 20px;
-    border: none;
+    border: 2px solid #7f82bc;
     border-radius: 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: transparent;
+    color: #7f82bc;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 .nav-btn:hover, .social-btn:hover {
-    background-color: #0056b3;
+    background-color: #656896;
+    color: white;
 }
 .content {
     text-align: center;
-    padding: 20px;
+    max-width: 80%;
+    padding: 15px 0;
 }
 .main-image {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
     margin-bottom: 20px;
+    border-radius: 50%;
 }
 hr {
     width: 80%;
