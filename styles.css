@@ -16,7 +16,7 @@ body {
 }
 .nav-btn, .social-btn {
     font-family: 'Raleway', sans-serif;
-    padding: 10px 20px;
+    padding: 10px 0px;
     border: 2px solid #7f82bc;
     border-radius: 20px;
     background-color: transparent;
@@ -34,7 +34,7 @@ body {
 }
 .main-image {
     max-width: 40%;
-    height: 40%;
+    max-height: 40%;
     margin-bottom: 20px;
     border-radius: 50%;
 }
