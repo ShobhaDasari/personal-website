@@ -7,20 +7,28 @@ body {
     align-items: center;
     background-color: white;
 }
-.navbar, .footer {
+.navbar {
     font-family: 'Raleway', sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px;
-    padding: 20px;
+    align-items: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around; 
 }
-.nav-btn, .social-btn {
+.nav-btn {
     font-family: 'Raleway', sans-serif;
-    padding: 10px 0px;
+    padding: 10px 20px;
     border: 2px solid #7f82bc;
     border-radius: 20px;
     background-color: transparent;
     color: #7f82bc;
+    cursor: pointer;
+    text-align: center;
+}
+.social-btn {
+    padding: 0px 0px;
     cursor: pointer;
 }
 .nav-btn:hover, .social-btn:hover {
@@ -43,6 +51,34 @@ hr {
     margin: 20px 0;
 }
 .footer {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around; 
     margin-top: auto;
-    padding: 20px;
+}
+
+/* Responsive Design for the Navbar */
+@media screen and (max-width: 768px) {
+    .nav-btn {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+    }
+    .navbar, .footer {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-btn {
+        padding: 3px 5px;
+        font-size: 0.8rem;
+    }
+    .navbar, .footer {
+        gap: 5px;
+    }
 }
