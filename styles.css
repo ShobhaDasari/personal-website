@@ -11,11 +11,9 @@ body {
     font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: space-around;
-    gap: 20px;
     align-items: center;
-    padding: 1em;
-    display: flex;
-    justify-content: space-around; 
+    gap: 20px;
+    padding-top: 20px;
 }
 .nav-btn {
     font-family: 'Raleway', sans-serif;
@@ -41,8 +39,8 @@ body {
     padding: 15px 0;
 }
 .main-image {
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 30%;
+    max-height: 30%;
     margin-bottom: 20px;
     border-radius: 50%;
 }
@@ -56,9 +54,7 @@ hr {
     justify-content: space-around;
     gap: 20px;
     align-items: center;
-    padding: 1em;
-    display: flex;
-    justify-content: space-around; 
+    padding: 20px;
     margin-top: auto;
 }
 
