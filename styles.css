@@ -1,0 +1,45 @@
+
+/* styles.css */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.navbar, .footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nav-btn, .social-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.nav-btn:hover, .social-btn:hover {
+    background-color: #0056b3;
+}
+.content {
+    text-align: center;
+    padding: 20px;
+}
+.main-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+hr {
+    width: 80%;
+    margin: 20px 0;
+}
+.footer {
+    margin-top: auto;
+    padding: 20px;
+}
