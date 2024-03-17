@@ -68,7 +68,6 @@ hr {
 .text-content {
     flex: 1;
     text-align: left;
-    line-height: 10px;
 }
 
 /* Responsive Design for the Navbar */
